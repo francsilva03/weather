@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+ 
+    
+    <title>Weather App</title>
+    
+</head>
+<body>
+
+    <main>
+
+      <div class="dim-container">
+        <div class="container">
+
+
+          <div class="weather-card" id="card">
+
+            <div class="city" id="city">Madrid, ES</div>
+
+            <div class="date" id="date">29/06/2021</div>
+
+            <div class="temperature">
+
+              <img src="/img/temp-mid.png" class="temp-img" id="temp-img" />
+
+              <div class="temp" id="temp">29c</div>
+
+            </div>
+
+            <div class="weather" id="weather">Sol</div>
+
+            <div class="range" id="range">27c / 20c</div>
+
+          </div>
+
+
+          <div class="search-form">
+
+            <form id="search-form">
+
+                <input type="text" autocomplete="off" placeholder="Search City" class="search" id="searchbox" />
+          
+
+              <button type="button"  class="btn" id="btn">Buscar</button>
+            </form>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+      
+      </main>
+  
+
+
+
+
+    <script src="code.js"></script>
+
+
+</body>
+</html>

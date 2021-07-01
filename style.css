@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+main {
+
+    display:flex;
+    font-size: 100%;
+    font: inherit;
+    min-height: 100vh;
+    overflow: hidden;
+    position:relative;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+
+}
+
+
+
+.dim-container  {
+
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 40px;
+    border-radius: 15px;
+
+}
+
+
+.container {
+
+    display: grid;
+    grid-template-rows:auto;
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    font:inherit;
+    vertical-align: baseline;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-box-align: center;
+    align-items: center;
+
+}
+
+.weather-card {
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    margin: 20px;
+    padding: 20px;
+    gap: 10px;
+
+}
+
+
+
+.temperature {
+    gap: 10px;
+}
+
+
+.search-form {
+
+    margin: 5px;
+    padding: 2px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(170, 170, 170, 0.5);
+    box-shadow: rgba(0,0,0,0.25) 0px 20px 40px;
+    border-radius: 20px;
+
+}
+
+
+#search-form {
+    display:flex;
+    gap: 2px;
+    width: 100%;
+
+}
+
+.search {
+    width: 80%;
+}
+
+.btn {
+    width: 20%;
+}
+
+
+.search, .btn {
+
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    font-size: 14px;
+    border-radius: 20px;
+    outline:none;
+}
+
+.btn {
+    color: black;
+    cursor:pointer;
+    
+}
+
+
+
+.btn:hover {
+    background:rgba(68, 68, 184, 0.25);
+    transform: translate(2px);
+    transition: all 0.2s;
+    
+}
+
+
+.temperature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.temp-img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
